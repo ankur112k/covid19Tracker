@@ -1,0 +1,33 @@
+body {
+  /* background-color: rgb(236, 240, 126); */
+  background: radial-gradient(
+    circle at 160%,
+    #333,
+    rgba(146, 206, 222, 0.813) 50%,
+    #eee 75%,
+    rgb(214, 147, 147) 100%
+  );
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: auto;
+  flex-direction: row;
+}
+
+.image {
+  width: 470px;
+  margin-top: 50px;
+}
+
+@media only screen and (max-width: 770px) {
+  .container {
+    margin: 0 10%;
+  }
+
+  .image {
+    width: 100%;
+  }
+}
